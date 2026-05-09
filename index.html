@@ -178,3 +178,152 @@
 
 </body>
 </html>
+
+
+
+
+
+
+<!--
+/* تنسيق الحاوية الكبرى للـ Footer */
+.main-footer {
+  
+    padding: 60px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    border-top: 1px solid #eee;
+    width: 100%;
+   overflow: hidden;  color: #e4c3b5; /* لون وردي فاتح عند التمرير */
+
+    transition: 0.3s;
+    background-color: #07093a;
+  
+
+}
+/* تنسيق قسم الإحصائيات (مثل الصورة) */
+.stats-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width:100%;
+    margin: 0 auto 40px;
+    text-align: center;
+    gap: 20px;
+  
+}
+
+.stat-item {
+    margin: 10px;
+    min-width: 120px;
+    flex: 1 1 150px;
+}
+
+.stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c5a059; /* اللون الذهبي من الصورة */
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #777;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* خط فاصل */
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #ffffff;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* محتوى الـ Footer السفلي */
+.footer-content {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    margin: 20px auto;
+    flex-direction: row-reverse; /* لجعل الاتجاه متناسب مع العربي */
+}
+
+.footer-links {
+    margin-bottom: 15px;
+    gap : 30px;
+     display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    color: #ececee;
+     justify-content: center;
+}
+.footer-links a {
+    color: #ececee;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+.footer-links a:hover {
+    color: #c5a059;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;  
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+
+/* --- تعديلات أساسية لضمان عمل الـ Media Query --- */
+
+/* جعل الحاويات مرنة */
+.services-boxes, .content-boxes {
+    display: flex;
+    flex-wrap: wrap; /* عشان العناصر تنزل تحت بعض لما الشاشة تصغر */
+    justify-content: center;
+    gap: 20px;
+}
+
+/* الحاوية اللي شايلاهم كلهم */
+.contact-item {
+    display: flex;
+    justify-content: center; /* تخليهم في النص */
+    gap: 20px;               /* مسافة بين كل أيقونة والثانية */
+    margin-top: 20px;
+}
+
+/* تنسيق اللينك (الدائرة البيضاء) */
+.contact-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;            /* عرض الدائرة */
+    height: 45px;           /* طول الدائرة */
+    background-color: #fff; /* اللون الأبيض للخلفية */
+    border-radius: 50%;     /* عشان تكون دائرية تماماً */
+    text-decoration: none;
+    transition: all 0.3s ease; /* أنيميشن لما الماوس ييجي عليها */
+}
+
+/* تنسيق الأيقونة نفسها اللي جوه اللينك */
+.contact-item a i {
+    color: #1a1a1a;         /* لون الأيقونة (أسود أو رمادي غامق) */
+    font-size: 20px;        /* حجم الأيقونة */
+}
+
+/* تأثير عند تمرير الماوس (Hover) */
+.contact-item a:hover {
+    transform: translateY(-5px); /* تترفع لفوق شوية */
+    background-color: #c5a059;   /* تتحول للذهبي بتاعك عند الهوفر */
+}
+
+.contact-item a:hover i {
+    color: #fff;                 /* الأيقونة تبقى بيضاء عند الهوفر */
+}
+-->
