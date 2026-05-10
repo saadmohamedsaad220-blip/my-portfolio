@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // ✅ هنا النجاح → ينقلك لأول صفحة
-        window.location.href = "index1.html#home";
+        window.location.href = "skills.html";
     });
     
 

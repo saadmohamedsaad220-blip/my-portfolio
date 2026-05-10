@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Genedy - Skills</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .head{
+ 
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    border-radius: 50%;
+   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dfdcf0;
+    z-index: 1000;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.logo{
+    color: #031243;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-decoration: none;
+}
+        body {
+            background-color: #07093a; 
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .skills-page {
+            padding: 120px 10% 50px;
+        }
+
+       
+        .content-section {
+            text-align: left;
+            margin-bottom: 50px;
+        }
+
+        .content-section h2 {
+            color: #f64a00;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            
+            padding-left: 15px;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .skills-list li::before {
+            content: "■";
+            color: #ffffff;
+            margin-left: 15px;
+            font-size: 0.8rem;
+        }
+        
+       .content-section ol {
+            text-align: left;
+            margin-bottom: 50px;
+           
+            font-size: 1.6rem;            margin-bottom: 20px;
+           
+            padding-left: 15px;
+        }
+        
+
+        
+
+        /* تنسيق الجدول */
+        .team-section {
+            margin-top: 60px;
+            background-color: #dfdcf0;
+            padding: 50px 10%;
+            color: #07093a;
+
+        }
+
+        .team-table-container {
+            overflow-x: auto;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(13, 5, 41, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(246, 74, 0, 0.3);
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th {
+            background-color: #f64a00;
+            color: white;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        tr:hover {
+            background: rgba(246, 74, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .stat-badge {
+            background: #c5a059;
+            color: #07093a;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 40px;
+            background: #f64a00;
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 10px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        .back-btn:hover {
+            background: #dfdcf0;
+            color: #f64a00;
+            box-shadow: 0 0 20px #f64a00;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Saad Genedy</a>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="skills.html" style="color: #f64a00;">Skills</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="skills-page">
+        
+        <div class="content-section">
+            <h2>My Skills</h2>
+            <ul class="skills-list">
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Brand Identity Design</li>
+                <li>Social Media Graphics</li>
+                <li>UI/UX Basics</li>
+            </ul>
+        </div>
+<hr class="footer-divider">
+        <div class="content-section">
+            <h2 style="border-left-color: #c5a059;">My Workflow</h2>
+            <ol>
+                <li> Research & Discovery</li>
+                <li> Concept Development</li>
+                <li> Design & Refinement</li>
+                <li> Delivery & Support </li>
+            </ol>
+        </div>
+
+        <div class="team-section">
+            <h2>My Team</h2>
+            <div class="team-table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Specialization</th>
+                            <th>Completed Projects</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Saad Genedy</td>
+                            <td>Graphic Designer</td>
+                            <td><span class="stat-badge">+47 Projects</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Said</td>
+                            <td>Video Editor</td>
+                            <td><span class="stat-badge">+20 Projects</span></td>
+                        </tr>
+                        <tr>
+                            <td>Mohamed Mostafa</td>
+                            <td>Web Designer</td>
+                            <td><span class="stat-badge">15 Projects</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="back-btn"><i class="fa-solid fa-house"></i> Back to Home</a>
+        </div>
+
+    </section>
+
+</body>
+</html>
